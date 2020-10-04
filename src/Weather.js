@@ -1,4 +1,5 @@
 import React from "react";
+import SearchForm from "./SearchForm";
 import "./Weather.css";
 
 export default function Weather() {
@@ -54,6 +55,17 @@ export default function Weather() {
                 </span>
               </div>
             </div>
+          </section>
+
+          <section className="searchForm">
+            <span className="errorMsg" />
+            <form>
+              <div className="form-row">
+                <div className="col">
+                  <SearchForm />
+                </div>
+              </div>
+            </form>
           </section>
         </div>
       </div>
