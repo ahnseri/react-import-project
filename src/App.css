@@ -23,3 +23,17 @@
 .searchForm {
   padding: 10px;
 }
+
+footer {
+  text-align: center;
+  font-size: small;
+}
+
+footer a {
+  color: #7e98cf;
+}
+
+footer a:hover {
+  color: #37425a;
+  text-decoration: none;
+}

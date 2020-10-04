@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Weather />
-      <p>
+      <footer>
         <a
           href="https://github.com/ahnseri/react-import-project"
           target="_blank"
@@ -15,7 +15,7 @@ function App() {
           Open-source code on GitHub
         </a>{" "}
         by Sherry-Anne Yu
-      </p>
+      </footer>
     </div>
   );
 }
