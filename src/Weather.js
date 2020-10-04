@@ -1,5 +1,6 @@
 import React from "react";
 import SearchForm from "./SearchForm";
+import SearchButtons from "./SearchButtons";
 import "./Weather.css";
 
 export default function Weather() {
@@ -63,6 +64,9 @@ export default function Weather() {
               <div className="form-row">
                 <div className="col">
                   <SearchForm />
+                </div>
+                <div className="col-auto">
+                  <SearchButtons />
                 </div>
               </div>
             </form>
