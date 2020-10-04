@@ -1,0 +1,45 @@
+.Weather ul {
+  padding: 0;
+}
+
+.Weather li {
+  list-style: none;
+  font-size: small;
+}
+
+.Weather .loadWeather {
+  text-align: center;
+  padding: 10px 60px 10px 60px;
+  background: #ffffff25;
+  border-radius: 15px;
+}
+
+.Weather .city {
+  position: relative;
+  bottom: 20px;
+  text-transform: uppercase;
+}
+
+.Weather .temperature {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.Weather .loadWeather .units {
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  bottom: 20px;
+}
+
+.Weather .description {
+  font-size: small;
+  position: relative;
+  bottom: 20px;
+}
+
+.Weather .weatherDetails {
+  font-size: small;
+  position: relative;
+  top: 20px;
+}
