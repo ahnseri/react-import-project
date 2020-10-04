@@ -1,0 +1,19 @@
+.SearchButtons .btn-secondary {
+  background: #536488;
+  border: #536488;
+}
+
+.SearchButtons .btn-secondary:hover {
+  background: #37425a;
+  border: #37425a;
+}
+
+.SearchButtons a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.SearchButtons a:hover {
+  color: #fff;
+  text-decoration: none;
+}

@@ -1,4 +1,6 @@
 import React from "react";
+import "./SearchButtons.css";
+
 export default function SearchButtons() {
   return (
     <div className="SearchButtons">
