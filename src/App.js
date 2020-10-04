@@ -11,6 +11,7 @@ function App() {
         <a
           href="https://github.com/ahnseri/react-import-project"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Open-source code on GitHub
         </a>{" "}
